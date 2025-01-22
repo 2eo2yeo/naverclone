@@ -62,17 +62,36 @@ html, body {
 }
 
 #wrap-center {
-    background-color: yellow;
+    background-color: rgb(255, 255, 222);
     width: 1280px;
     display: inline-block;
 }
 
-#hamburger {
-    border: 1px solid green;
-    padding: 8px;
-    width: 48px;
-    height: 48px;
+#header {
+    text-align: left;
+}
+
+
+#header-hamburger {
     margin-top: 8px;
+    padding: 10px;
+    display: inline-block;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+#header-hamburger:hover {
+    background-color: var(--color_option_bg);
+    border-radius: 50%;
+}
+#header-hamburger > div {
+    background-image: url(https://pm.pstatic.net/resources/asset/sp_main.eae24523.png);
+    width: 32px;
+    height: 32px;
+    background-size: 452px 436px;
+    background-position: -311px -166px;
+    background-repeat: no-repeat;
 }
 
 #main {
